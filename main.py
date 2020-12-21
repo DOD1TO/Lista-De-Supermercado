@@ -63,8 +63,8 @@ class Funcs():
         for n in self.listProQuant.selection():
             col1, col2, col3 = self.listProQuant.item(n, 'values')
             self.code_entry.insert(END, col1)
-            self.quantity_entry.insert(END, col2)
-            self.product_entry.insert(END, col3)
+            self.product_entry.insert(END, col2)
+            self.quantity_entry.insert(END, col3)
 
     def delete_product(self):
         self.variables()
